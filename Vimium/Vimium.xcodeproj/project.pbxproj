@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279907902AAD63260083F18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799078F2AAD63260083F18D /* AppDelegate.swift */; };
+		279907922AAD63260083F18D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279907912AAD63260083F18D /* SceneDelegate.swift */; };
+		279907952AAD63260083F18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279907932AAD63260083F18D /* LaunchScreen.storyboard */; };
+		279907982AAD63260083F18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279907962AAD63260083F18D /* Main.storyboard */; };
+		279907A12AAD63260083F18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279907A02AAD63260083F18D /* AppDelegate.swift */; };
+		279907A42AAD63260083F18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279907A22AAD63260083F18D /* Main.storyboard */; };
+		279907AC2AAD63260083F18D /* Vimium Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279907AB2AAD63260083F18D /* Vimium Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		279907B62AAD63260083F18D /* Vimium Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279907B52AAD63260083F18D /* Vimium Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		279907BC2AAD63260083F18D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2799077F2AAD63250083F18D /* Main.html */; };
+		279907BD2AAD63260083F18D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2799077F2AAD63250083F18D /* Main.html */; };
+		279907BE2AAD63260083F18D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 279907812AAD63250083F18D /* Icon.png */; };
+		279907BF2AAD63260083F18D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 279907812AAD63250083F18D /* Icon.png */; };
+		279907C02AAD63260083F18D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279907822AAD63250083F18D /* Style.css */; };
+		279907C12AAD63260083F18D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279907822AAD63250083F18D /* Style.css */; };
+		279907C22AAD63260083F18D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279907832AAD63250083F18D /* Script.js */; };
+		279907C32AAD63260083F18D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279907832AAD63250083F18D /* Script.js */; };
+		279907C42AAD63260083F18D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279907842AAD63250083F18D /* ViewController.swift */; };
+		279907C52AAD63260083F18D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279907842AAD63250083F18D /* ViewController.swift */; };
+		279907C62AAD63260083F18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279907852AAD63260083F18D /* Assets.xcassets */; };
+		279907C72AAD63260083F18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279907852AAD63260083F18D /* Assets.xcassets */; };
+		279907C82AAD63260083F18D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279907872AAD63260083F18D /* SafariWebExtensionHandler.swift */; };
+		279907C92AAD63260083F18D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279907872AAD63260083F18D /* SafariWebExtensionHandler.swift */; };
+		279907EC2AAD63260083F18D /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 279907DB2AAD63260083F18D /* CHANGELOG.md */; };
+		279907ED2AAD63260083F18D /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 279907DC2AAD63260083F18D /* tests */; };
+		279907EE2AAD63260083F18D /* deno.json in Resources */ = {isa = PBXBuildFile; fileRef = 279907DD2AAD63260083F18D /* deno.json */; };
+		279907EF2AAD63260083F18D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 279907DE2AAD63260083F18D /* README.md */; };
+		279907F02AAD63260083F18D /* MIT-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 279907DF2AAD63260083F18D /* MIT-LICENSE.txt */; };
+		279907F12AAD63260083F18D /* deno.lock in Resources */ = {isa = PBXBuildFile; fileRef = 279907E02AAD63260083F18D /* deno.lock */; };
+		279907F22AAD63260083F18D /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 279907E12AAD63260083F18D /* CONTRIBUTING.md */; };
+		279907F32AAD63260083F18D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 279907E22AAD63260083F18D /* icons */; };
+		279907F42AAD63260083F18D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 279907E32AAD63260083F18D /* manifest.json */; };
+		279907F52AAD63260083F18D /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 279907E42AAD63260083F18D /* lib */; };
+		279907F62AAD63260083F18D /* test_harnesses in Resources */ = {isa = PBXBuildFile; fileRef = 279907E52AAD63260083F18D /* test_harnesses */; };
+		279907F72AAD63260083F18D /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 279907E62AAD63260083F18D /* pages */; };
+		279907F92AAD63260083F18D /* make.js in Resources */ = {isa = PBXBuildFile; fileRef = 279907E82AAD63260083F18D /* make.js */; };
+		279907FA2AAD63260083F18D /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 279907E92AAD63260083F18D /* CREDITS */; };
+		279907FB2AAD63260083F18D /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EA2AAD63260083F18D /* content_scripts */; };
+		279907FC2AAD63260083F18D /* background_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EB2AAD63260083F18D /* background_scripts */; };
+		279907FD2AAD63260083F18D /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 279907DB2AAD63260083F18D /* CHANGELOG.md */; };
+		279907FE2AAD63260083F18D /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 279907DC2AAD63260083F18D /* tests */; };
+		279907FF2AAD63260083F18D /* deno.json in Resources */ = {isa = PBXBuildFile; fileRef = 279907DD2AAD63260083F18D /* deno.json */; };
+		279908002AAD63260083F18D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 279907DE2AAD63260083F18D /* README.md */; };
+		279908012AAD63260083F18D /* MIT-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 279907DF2AAD63260083F18D /* MIT-LICENSE.txt */; };
+		279908022AAD63260083F18D /* deno.lock in Resources */ = {isa = PBXBuildFile; fileRef = 279907E02AAD63260083F18D /* deno.lock */; };
+		279908032AAD63260083F18D /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 279907E12AAD63260083F18D /* CONTRIBUTING.md */; };
+		279908042AAD63260083F18D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 279907E22AAD63260083F18D /* icons */; };
+		279908052AAD63260083F18D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 279907E32AAD63260083F18D /* manifest.json */; };
+		279908062AAD63260083F18D /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 279907E42AAD63260083F18D /* lib */; };
+		279908072AAD63260083F18D /* test_harnesses in Resources */ = {isa = PBXBuildFile; fileRef = 279907E52AAD63260083F18D /* test_harnesses */; };
+		279908082AAD63260083F18D /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 279907E62AAD63260083F18D /* pages */; };
+		2799080A2AAD63260083F18D /* make.js in Resources */ = {isa = PBXBuildFile; fileRef = 279907E82AAD63260083F18D /* make.js */; };
+		2799080B2AAD63260083F18D /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 279907E92AAD63260083F18D /* CREDITS */; };
+		2799080C2AAD63260083F18D /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EA2AAD63260083F18D /* content_scripts */; };
+		2799080D2AAD63260083F18D /* background_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EB2AAD63260083F18D /* background_scripts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279907AD2AAD63260083F18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279907792AAD63250083F18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279907AA2AAD63260083F18D;
+			remoteInfo = "Vimium Extension (iOS)";
+		};
+		279907B72AAD63260083F18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279907792AAD63250083F18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279907B42AAD63260083F18D;
+			remoteInfo = "Vimium Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		279907CF2AAD63260083F18D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				279907AC2AAD63260083F18D /* Vimium Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907D62AAD63260083F18D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				279907B62AAD63260083F18D /* Vimium Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		279907802AAD63250083F18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		279907812AAD63250083F18D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		279907822AAD63250083F18D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		279907832AAD63250083F18D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		279907842AAD63250083F18D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		279907852AAD63260083F18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279907872AAD63260083F18D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		2799078C2AAD63260083F18D /* Vimium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vimium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2799078F2AAD63260083F18D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		279907912AAD63260083F18D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		279907942AAD63260083F18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		279907972AAD63260083F18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279907992AAD63260083F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2799079E2AAD63260083F18D /* Vimium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vimium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279907A02AAD63260083F18D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		279907A32AAD63260083F18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279907A52AAD63260083F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279907A62AAD63260083F18D /* Vimium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vimium.entitlements; sourceTree = "<group>"; };
+		279907AB2AAD63260083F18D /* Vimium Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vimium Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279907B02AAD63260083F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279907B52AAD63260083F18D /* Vimium Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vimium Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279907BA2AAD63260083F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279907BB2AAD63260083F18D /* Vimium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vimium.entitlements; sourceTree = "<group>"; };
+		279907DB2AAD63260083F18D /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../../CHANGELOG.md; sourceTree = "<group>"; };
+		279907DC2AAD63260083F18D /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tests; path = ../../tests; sourceTree = "<group>"; };
+		279907DD2AAD63260083F18D /* deno.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = deno.json; path = ../../deno.json; sourceTree = "<group>"; };
+		279907DE2AAD63260083F18D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		279907DF2AAD63260083F18D /* MIT-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "MIT-LICENSE.txt"; path = "../../MIT-LICENSE.txt"; sourceTree = "<group>"; };
+		279907E02AAD63260083F18D /* deno.lock */ = {isa = PBXFileReference; lastKnownFileType = text; name = deno.lock; path = ../../deno.lock; sourceTree = "<group>"; };
+		279907E12AAD63260083F18D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../../CONTRIBUTING.md; sourceTree = "<group>"; };
+		279907E22AAD63260083F18D /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		279907E32AAD63260083F18D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		279907E42AAD63260083F18D /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../lib; sourceTree = "<group>"; };
+		279907E52AAD63260083F18D /* test_harnesses */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test_harnesses; path = ../../test_harnesses; sourceTree = "<group>"; };
+		279907E62AAD63260083F18D /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pages; path = ../../pages; sourceTree = "<group>"; };
+		279907E82AAD63260083F18D /* make.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = make.js; path = ../../make.js; sourceTree = "<group>"; };
+		279907E92AAD63260083F18D /* CREDITS */ = {isa = PBXFileReference; lastKnownFileType = text; name = CREDITS; path = ../../CREDITS; sourceTree = "<group>"; };
+		279907EA2AAD63260083F18D /* content_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = content_scripts; path = ../../content_scripts; sourceTree = "<group>"; };
+		279907EB2AAD63260083F18D /* background_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background_scripts; path = ../../background_scripts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279907892AAD63260083F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2799079B2AAD63260083F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907A82AAD63260083F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907B22AAD63260083F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279907782AAD63250083F18D = {
+			isa = PBXGroup;
+			children = (
+				2799077D2AAD63250083F18D /* Shared (App) */,
+				279907862AAD63260083F18D /* Shared (Extension) */,
+				2799078E2AAD63260083F18D /* iOS (App) */,
+				2799079F2AAD63260083F18D /* macOS (App) */,
+				279907AF2AAD63260083F18D /* iOS (Extension) */,
+				279907B92AAD63260083F18D /* macOS (Extension) */,
+				2799078D2AAD63260083F18D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2799077D2AAD63250083F18D /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				279907842AAD63250083F18D /* ViewController.swift */,
+				279907852AAD63260083F18D /* Assets.xcassets */,
+				2799077E2AAD63250083F18D /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		2799077E2AAD63250083F18D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2799077F2AAD63250083F18D /* Main.html */,
+				279907812AAD63250083F18D /* Icon.png */,
+				279907822AAD63250083F18D /* Style.css */,
+				279907832AAD63250083F18D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		279907862AAD63260083F18D /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				279907DA2AAD63260083F18D /* Resources */,
+				279907872AAD63260083F18D /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		2799078D2AAD63260083F18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2799078C2AAD63260083F18D /* Vimium.app */,
+				2799079E2AAD63260083F18D /* Vimium.app */,
+				279907AB2AAD63260083F18D /* Vimium Extension.appex */,
+				279907B52AAD63260083F18D /* Vimium Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2799078E2AAD63260083F18D /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2799078F2AAD63260083F18D /* AppDelegate.swift */,
+				279907912AAD63260083F18D /* SceneDelegate.swift */,
+				279907932AAD63260083F18D /* LaunchScreen.storyboard */,
+				279907962AAD63260083F18D /* Main.storyboard */,
+				279907992AAD63260083F18D /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		2799079F2AAD63260083F18D /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				279907A02AAD63260083F18D /* AppDelegate.swift */,
+				279907A22AAD63260083F18D /* Main.storyboard */,
+				279907A52AAD63260083F18D /* Info.plist */,
+				279907A62AAD63260083F18D /* Vimium.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		279907AF2AAD63260083F18D /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				279907B02AAD63260083F18D /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		279907B92AAD63260083F18D /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				279907BA2AAD63260083F18D /* Info.plist */,
+				279907BB2AAD63260083F18D /* Vimium.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		279907DA2AAD63260083F18D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				279907DB2AAD63260083F18D /* CHANGELOG.md */,
+				279907DC2AAD63260083F18D /* tests */,
+				279907DD2AAD63260083F18D /* deno.json */,
+				279907DE2AAD63260083F18D /* README.md */,
+				279907DF2AAD63260083F18D /* MIT-LICENSE.txt */,
+				279907E02AAD63260083F18D /* deno.lock */,
+				279907E12AAD63260083F18D /* CONTRIBUTING.md */,
+				279907E22AAD63260083F18D /* icons */,
+				279907E32AAD63260083F18D /* manifest.json */,
+				279907E42AAD63260083F18D /* lib */,
+				279907E52AAD63260083F18D /* test_harnesses */,
+				279907E62AAD63260083F18D /* pages */,
+				279907E82AAD63260083F18D /* make.js */,
+				279907E92AAD63260083F18D /* CREDITS */,
+				279907EA2AAD63260083F18D /* content_scripts */,
+				279907EB2AAD63260083F18D /* background_scripts */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2799078B2AAD63260083F18D /* Vimium (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279907D02AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium (iOS)" */;
+			buildPhases = (
+				279907882AAD63260083F18D /* Sources */,
+				279907892AAD63260083F18D /* Frameworks */,
+				2799078A2AAD63260083F18D /* Resources */,
+				279907CF2AAD63260083F18D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279907AE2AAD63260083F18D /* PBXTargetDependency */,
+			);
+			name = "Vimium (iOS)";
+			productName = "Vimium (iOS)";
+			productReference = 2799078C2AAD63260083F18D /* Vimium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2799079D2AAD63260083F18D /* Vimium (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279907D72AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium (macOS)" */;
+			buildPhases = (
+				2799079A2AAD63260083F18D /* Sources */,
+				2799079B2AAD63260083F18D /* Frameworks */,
+				2799079C2AAD63260083F18D /* Resources */,
+				279907D62AAD63260083F18D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279907B82AAD63260083F18D /* PBXTargetDependency */,
+			);
+			name = "Vimium (macOS)";
+			productName = "Vimium (macOS)";
+			productReference = 2799079E2AAD63260083F18D /* Vimium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279907AA2AAD63260083F18D /* Vimium Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279907CC2AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium Extension (iOS)" */;
+			buildPhases = (
+				279907A72AAD63260083F18D /* Sources */,
+				279907A82AAD63260083F18D /* Frameworks */,
+				279907A92AAD63260083F18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vimium Extension (iOS)";
+			productName = "Vimium Extension (iOS)";
+			productReference = 279907AB2AAD63260083F18D /* Vimium Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		279907B42AAD63260083F18D /* Vimium Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279907D32AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium Extension (macOS)" */;
+			buildPhases = (
+				279907B12AAD63260083F18D /* Sources */,
+				279907B22AAD63260083F18D /* Frameworks */,
+				279907B32AAD63260083F18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vimium Extension (macOS)";
+			productName = "Vimium Extension (macOS)";
+			productReference = 279907B52AAD63260083F18D /* Vimium Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279907792AAD63250083F18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2799078B2AAD63260083F18D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2799079D2AAD63260083F18D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					279907AA2AAD63260083F18D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					279907B42AAD63260083F18D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2799077C2AAD63250083F18D /* Build configuration list for PBXProject "Vimium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 279907782AAD63250083F18D;
+			productRefGroup = 2799078D2AAD63260083F18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2799078B2AAD63260083F18D /* Vimium (iOS) */,
+				2799079D2AAD63260083F18D /* Vimium (macOS) */,
+				279907AA2AAD63260083F18D /* Vimium Extension (iOS) */,
+				279907B42AAD63260083F18D /* Vimium Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2799078A2AAD63260083F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907BE2AAD63260083F18D /* Icon.png in Resources */,
+				279907952AAD63260083F18D /* LaunchScreen.storyboard in Resources */,
+				279907BC2AAD63260083F18D /* Main.html in Resources */,
+				279907C22AAD63260083F18D /* Script.js in Resources */,
+				279907C62AAD63260083F18D /* Assets.xcassets in Resources */,
+				279907982AAD63260083F18D /* Main.storyboard in Resources */,
+				279907C02AAD63260083F18D /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2799079C2AAD63260083F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907BF2AAD63260083F18D /* Icon.png in Resources */,
+				279907C12AAD63260083F18D /* Style.css in Resources */,
+				279907A42AAD63260083F18D /* Main.storyboard in Resources */,
+				279907C32AAD63260083F18D /* Script.js in Resources */,
+				279907C72AAD63260083F18D /* Assets.xcassets in Resources */,
+				279907BD2AAD63260083F18D /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907A92AAD63260083F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2799080C2AAD63260083F18D /* content_scripts in Resources */,
+				279907FE2AAD63260083F18D /* tests in Resources */,
+				279908042AAD63260083F18D /* icons in Resources */,
+				2799080D2AAD63260083F18D /* background_scripts in Resources */,
+				279907FF2AAD63260083F18D /* deno.json in Resources */,
+				279908012AAD63260083F18D /* MIT-LICENSE.txt in Resources */,
+				279908052AAD63260083F18D /* manifest.json in Resources */,
+				279908002AAD63260083F18D /* README.md in Resources */,
+				279908062AAD63260083F18D /* lib in Resources */,
+				2799080A2AAD63260083F18D /* make.js in Resources */,
+				279908032AAD63260083F18D /* CONTRIBUTING.md in Resources */,
+				279908022AAD63260083F18D /* deno.lock in Resources */,
+				279908082AAD63260083F18D /* pages in Resources */,
+				2799080B2AAD63260083F18D /* CREDITS in Resources */,
+				279907FD2AAD63260083F18D /* CHANGELOG.md in Resources */,
+				279908072AAD63260083F18D /* test_harnesses in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907B32AAD63260083F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907FB2AAD63260083F18D /* content_scripts in Resources */,
+				279907ED2AAD63260083F18D /* tests in Resources */,
+				279907F32AAD63260083F18D /* icons in Resources */,
+				279907FC2AAD63260083F18D /* background_scripts in Resources */,
+				279907EE2AAD63260083F18D /* deno.json in Resources */,
+				279907F02AAD63260083F18D /* MIT-LICENSE.txt in Resources */,
+				279907F42AAD63260083F18D /* manifest.json in Resources */,
+				279907EF2AAD63260083F18D /* README.md in Resources */,
+				279907F52AAD63260083F18D /* lib in Resources */,
+				279907F92AAD63260083F18D /* make.js in Resources */,
+				279907F22AAD63260083F18D /* CONTRIBUTING.md in Resources */,
+				279907F12AAD63260083F18D /* deno.lock in Resources */,
+				279907F72AAD63260083F18D /* pages in Resources */,
+				279907FA2AAD63260083F18D /* CREDITS in Resources */,
+				279907EC2AAD63260083F18D /* CHANGELOG.md in Resources */,
+				279907F62AAD63260083F18D /* test_harnesses in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279907882AAD63260083F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907C42AAD63260083F18D /* ViewController.swift in Sources */,
+				279907902AAD63260083F18D /* AppDelegate.swift in Sources */,
+				279907922AAD63260083F18D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2799079A2AAD63260083F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907C52AAD63260083F18D /* ViewController.swift in Sources */,
+				279907A12AAD63260083F18D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907A72AAD63260083F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907C82AAD63260083F18D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279907B12AAD63260083F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279907C92AAD63260083F18D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279907AE2AAD63260083F18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279907AA2AAD63260083F18D /* Vimium Extension (iOS) */;
+			targetProxy = 279907AD2AAD63260083F18D /* PBXContainerItemProxy */;
+		};
+		279907B82AAD63260083F18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279907B42AAD63260083F18D /* Vimium Extension (macOS) */;
+			targetProxy = 279907B72AAD63260083F18D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2799077F2AAD63250083F18D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279907802AAD63250083F18D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		279907932AAD63260083F18D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279907942AAD63260083F18D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		279907962AAD63260083F18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279907972AAD63260083F18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279907A22AAD63260083F18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279907A32AAD63260083F18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279907CA2AAD63260083F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		279907CB2AAD63260083F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		279907CD2AAD63260083F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vimium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium.Extension;
+				PRODUCT_NAME = "Vimium Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279907CE2AAD63260083F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vimium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium.Extension;
+				PRODUCT_NAME = "Vimium Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279907D12AAD63260083F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Vimium;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium;
+				PRODUCT_NAME = Vimium;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279907D22AAD63260083F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Vimium;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium;
+				PRODUCT_NAME = Vimium;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279907D42AAD63260083F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Vimium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vimium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium.Extension;
+				PRODUCT_NAME = "Vimium Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		279907D52AAD63260083F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Vimium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vimium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium.Extension;
+				PRODUCT_NAME = "Vimium Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		279907D82AAD63260083F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Vimium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Vimium;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium;
+				PRODUCT_NAME = Vimium;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		279907D92AAD63260083F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Vimium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Vimium;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Vimium;
+				PRODUCT_NAME = Vimium;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2799077C2AAD63250083F18D /* Build configuration list for PBXProject "Vimium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279907CA2AAD63260083F18D /* Debug */,
+				279907CB2AAD63260083F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279907CC2AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279907CD2AAD63260083F18D /* Debug */,
+				279907CE2AAD63260083F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279907D02AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279907D12AAD63260083F18D /* Debug */,
+				279907D22AAD63260083F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279907D32AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279907D42AAD63260083F18D /* Debug */,
+				279907D52AAD63260083F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279907D72AAD63260083F18D /* Build configuration list for PBXNativeTarget "Vimium (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279907D82AAD63260083F18D /* Debug */,
+				279907D92AAD63260083F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279907792AAD63250083F18D /* Project object */;
+}

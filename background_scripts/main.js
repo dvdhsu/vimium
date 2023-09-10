@@ -55,8 +55,12 @@ const onURLChange = (details) => {
 // Re-check whether Vimium is enabled for a frame when the URL changes without a reload.
 // There's no reliable way to detect when the URL has changed in the content script, so we
 // have to use the webNavigation API in our background script.
-chrome.webNavigation.onHistoryStateUpdated.addListener(onURLChange); // history.pushState.
-chrome.webNavigation.onReferenceFragmentUpdated.addListener(onURLChange); // Hash changed.
+if(chrome.webNavigation.onHistoryStateUpdated) {
+    chrome.webNavigation.onHistoryStateUpdated.addListener(onURLChange); // history.pushState.
+}
+if(chrome.webNavigation.onReferenceFragmentUpdated) {
+    chrome.webNavigation.onReferenceFragmentUpdated.addListener(onURLChange); // Hash changed.
+}
 
 if (!globalThis.isUnitTests) {
   // Cache "content_scripts/vimium.css" in chrome.storage.session for UI components.

@@ -89,7 +89,7 @@ const BgUtils = {
   },
 
   async getFirefoxVersion() {
-    return globalThis.browser ? (await browser.runtime.getBrowserInfo()).version : null;
+    return null;
   },
 
   escapedEntities: {

@@ -61,6 +61,17 @@
 		2799080B2AAD63260083F18D /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 279907E92AAD63260083F18D /* CREDITS */; };
 		2799080C2AAD63260083F18D /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EA2AAD63260083F18D /* content_scripts */; };
 		2799080D2AAD63260083F18D /* background_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EB2AAD63260083F18D /* background_scripts */; };
+		27AD078D2AB3D13D00EA5C80 /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 279907DC2AAD63260083F18D /* tests */; };
+		27AD078E2AB3D13D00EA5C80 /* deno.json in Resources */ = {isa = PBXBuildFile; fileRef = 279907DD2AAD63260083F18D /* deno.json */; };
+		27AD078F2AB3D13D00EA5C80 /* deno.lock in Resources */ = {isa = PBXBuildFile; fileRef = 279907E02AAD63260083F18D /* deno.lock */; };
+		27AD07902AB3D13D00EA5C80 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 279907E22AAD63260083F18D /* icons */; };
+		27AD07912AB3D13D00EA5C80 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 279907E32AAD63260083F18D /* manifest.json */; };
+		27AD07922AB3D13D00EA5C80 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 279907E42AAD63260083F18D /* lib */; };
+		27AD07932AB3D13D00EA5C80 /* test_harnesses in Resources */ = {isa = PBXBuildFile; fileRef = 279907E52AAD63260083F18D /* test_harnesses */; };
+		27AD07942AB3D13D00EA5C80 /* pages in Resources */ = {isa = PBXBuildFile; fileRef = 279907E62AAD63260083F18D /* pages */; };
+		27AD07952AB3D13D00EA5C80 /* make.js in Resources */ = {isa = PBXBuildFile; fileRef = 279907E82AAD63260083F18D /* make.js */; };
+		27AD07962AB3D13D00EA5C80 /* content_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EA2AAD63260083F18D /* content_scripts */; };
+		27AD07972AB3D13D00EA5C80 /* background_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 279907EB2AAD63260083F18D /* background_scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -436,6 +447,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AD078D2AB3D13D00EA5C80 /* tests in Resources */,
+				27AD078E2AB3D13D00EA5C80 /* deno.json in Resources */,
+				27AD078F2AB3D13D00EA5C80 /* deno.lock in Resources */,
+				27AD07902AB3D13D00EA5C80 /* icons in Resources */,
+				27AD07912AB3D13D00EA5C80 /* manifest.json in Resources */,
+				27AD07922AB3D13D00EA5C80 /* lib in Resources */,
+				27AD07932AB3D13D00EA5C80 /* test_harnesses in Resources */,
+				27AD07942AB3D13D00EA5C80 /* pages in Resources */,
+				27AD07952AB3D13D00EA5C80 /* make.js in Resources */,
+				27AD07962AB3D13D00EA5C80 /* content_scripts in Resources */,
+				27AD07972AB3D13D00EA5C80 /* background_scripts in Resources */,
 				279907BF2AAD63260083F18D /* Icon.png in Resources */,
 				279907C12AAD63260083F18D /* Style.css in Resources */,
 				279907A42AAD63260083F18D /* Main.storyboard in Resources */,
